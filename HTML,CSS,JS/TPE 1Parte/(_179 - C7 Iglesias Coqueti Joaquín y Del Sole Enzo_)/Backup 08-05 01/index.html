@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Restaurante Bon Appétit</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/logo.png" alt="Logo Restaurante Bon Appétit">
+        <ul class="main_nav">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="menu.html">Menú</a></li>
+            <li><a href="ubicacion.html">Ubicación</a></li>
+            <li><a href="index.html#form_contacto">Contacto</a></li>
+        </ul>
+    </header>
+
+    <div class='content'>
+        <div class='contenido_principal'>
+            <h1>Restaurante Bon Appétit</h1>
+            <h2>Un lugar donde los mejores saberes de la cocina italiana están a la orden del plato, para el deleite de la dama, para el deleite del caballero. ¡Bon Appétit!</h2>       
+        </div>
+        
+        <div class='contenido_secundario'>
+            <img src="images/pizza.jpg" alt="pizza"/>
+            <p>Muchos historiadores afirman que la pizza, tal y como se conoce en la actualidad, procede de la ciudad de Nápoles (Italia) y aparece como plato popular entre los napolitanos, en algún momento no definido del siglo XVII.</p>
+            <p>Los panes planos y las preparaciones fundamentadas en ellos, como la pizza, son típicos de las cocinas mediterráneas.</p>
+        </div>
+
+    </div>
+    <div class="content">
+        <form id="form_contacto" class="form_contacto" action="">
+            <h2>Formulario de contacto</h2>
+            <label>Nombre y Apellido:</label>
+            <Input type="text" name="nombre"/>
+            <label>E-Mail:</label>
+            <Input type="email" name="email"/>
+            <label>Teléfono:</label>
+            <Input type="tel" name="telefono"/>
+            <label>Mensaje:</label>
+            <textarea id="subject" name="subject" placeholder="Intente ser lo más descriptivo posible. Muchas gracias!"></textarea>
+            <input type="submit" id="btn_submit" class="btn_submit"/>
+            <div id="mensaje_al_enviar"></div>
+        </form> 
+    </div>
+
+    <footer>
+        <p>Creada por estudiantes de primer año de TUDAI</p>
+    </footer>    
+    <script src="js/scripts.js"></script>
+</body>
+</html>

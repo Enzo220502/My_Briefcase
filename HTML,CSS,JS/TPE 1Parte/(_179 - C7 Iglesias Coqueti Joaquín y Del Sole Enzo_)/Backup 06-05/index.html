@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Restaurante Bon Appétit</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/logo.png" alt="Logo Restaurante Bon Appétit">
+        <ul class="main_nav">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="menu.html">Menú</a></li>
+            <li><a href="ubicacion.html">Dónde encontrarnos</a></li>
+            <li><a href="index.html#formcontacto">Contacto</a></li>
+        </ul>
+    </header>
+
+    <div class='content'>
+        <div class='contenido_principal'>
+            <h1>Restaurante Bon Appétit</h1>
+
+            <h2>Un lugar donde los mejores saberes de la cocina italiana están a la orden del plato, para el deleite de la dama, para el deleite del caballero. ¡Bon Appétit!</h2>
+
+            <form id="formContacto" class="formContacto" action="">
+                <label>Nombre y Apellido:</label>
+                <Input type="text" name="nombre"/>
+                <label>E-Mail:</label>
+                <Input type="email" name="email"/>
+                <label>Teléfono:</label>
+               <Input type="tel" name="telefono"/>
+                <label>Mensaje:</label>
+                <textarea id="subject" name="subject" placeholder="Intente ser lo más descriptivo posible. Muchas gracias!"></textarea>
+                
+    
+            <input type="submit" id="btnSubmit"/>
+            <div id="mensajeAlEnviar"></div>
+        </form>        
+    </div>
+        
+        <div class='contenido_secundario'>
+            <img src="images/pizza.jpg" alt="pizza"/>
+            <p>¿Sabías que la pizza, de origen italiano, es el plato más comido del mundo?</p>
+        </div>
+    </div>
+
+
+
+
+    
+
+    <footer>
+        <p>Creada por estudiantes de primer año de TUDAI</p>
+    </footer>    
+    <script src="js/scripts.js"></script>
+</body>
+</html>

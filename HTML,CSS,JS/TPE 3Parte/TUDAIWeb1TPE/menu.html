@@ -1,0 +1,122 @@
+<div class='content'>
+    <div class='contenido_principal'>
+        <p>En esta seccion podran encontrar una tabla de referencia con los platos que podemos ofrecerles:</p>
+        <table id="table-menu">
+            <thead>
+                <tr>
+                    <th>Plato</th>
+                    <th>Precio</th>
+                    <th>Origen</th>
+                    <th>Apto:</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5">
+                        <button id="tabla_primer_pagina">Primer Pagina</button>
+                        <button id="tabla_anterior">Anterior</button>
+                        <button id="tabla_siguiente">Siguiente</button>
+                        <button id="tabla_filtro">Filtro</button>
+                        <div id="tabla_pagina_nro"></div>
+                    </td>
+                </tr>
+
+            </tfoot>
+        </table>
+
+        <form class="form_menu" id="form_agregar_plato" action="">
+            <div class="form_col">
+                <h2>Agregar Plato Al Menú</h2>
+                <label for="nombre">Nombre</label>
+                <Input type="text" name="nombre" required />
+                <label for="precio">Precio</label>
+                <Input type="number" name="precio" required />
+                <label for="origen">Origen</label>
+                <select name="origen">
+                    <option>India</option>
+                    <option>Italia</option>
+                    <option>Grecia</option>
+                    <option>México</option>
+                    <option>Portugal</option>
+                </select>
+                <label for="apto_veg">
+                    Apto Vegetarianos
+                </label>
+                <Input type="checkbox" name="apto_veg" />
+                <label for="apto_celiacos">
+                    Apto Celíacos
+                </label>
+                <Input type="checkbox" name="apto_celiacos" />
+            </div>
+            <div class="form_col">
+                <input type="button" class="btn_form" name="btn_agregar" value="Agregar" />
+                <input type="button" class="btn_form" name="btn_agregarx3" value="Agregar x3" />
+                <input type="button" class="btn_form" name="btn_limpiar" value="Limpiar Menú" />
+                <input type="button" class="btn_form" name="btn_menu_pregargado" value="Menú Precargado" />
+            </div>
+        </form>
+
+
+        <div class="div_form_menu">
+            <form class="form_menu" id="form_editar_plato" action="">
+                <h2>Editar Plato del Menú</h2>
+                <label for="id">id</label>
+                <Input type="number" name="id" required />
+                <label for="nombre">Nombre</label>
+                <Input type="text" name="nombre" required />
+                <label for="precio">Precio</label>
+                <Input type="number" name="precio" required />
+                <label for="origen">Origen</label>
+                <select name="origen">
+                    <option>España</option>
+                    <option>India</option>
+                    <option>Italia</option>
+                    <option>Grecia</option>
+                    <option>México</option>
+                    <option>Portugal</option>
+                </select>
+                <label for="apto_veg"> Apto Vegetarianos </label>
+                <Input type="checkbox" name="apto_veg" />
+                <label for="apto_celiacos"> Apto Celíacos </label>
+                <Input type="checkbox" name="apto_celiacos" />
+                <input type="submit" class="btn_form" name="btn_guardar" value="Guardar" />
+                <input type="button" class="btn_form" name="btn_cancelar" value="Cancelar" />
+            </form>
+        </div>
+
+        <div class="div_form_menu div_form_menu_filtrar">
+            <form class="form_menu" id="form_filtrar_plato" action="">
+                <h2>Filtrar Plato del Menú</h2>
+                <select name="origen">
+                    <option value="">No Filtrar</option>
+                    <option>España</option>
+                    <option>India</option>
+                    <option>Italia</option>
+                    <option>Grecia</option>
+                    <option>México</option>
+                    <option>Portugal</option>
+                </select>
+                <input type="submit" class="btn_form" name="btn_filtrar" value="Filtrar (local)" />
+                <input type="button" class="btn_form" name="btn_filtro_mockapi" value="Filtrar (Mockapi)" />
+                <input type="button" class="btn_form" name="btn_cancelar" value="Cancelar" />
+            </form>
+        </div>
+    </div>
+
+    <button class="btn_cont_opcional botones hide_from_tablet">¿Quieres conocer nuestros platos más
+        vendidos?</button>
+    <div class='contenido_secundario cont_opcional show_from_tablet'>
+        <div class="lista">
+            <p CLASS="top_lista">TOP 5 PLATOS MÁS VENDIDOS</p>
+            <ol>
+                <li>Ratatouille</li>
+                <li>Pizza Napolitana</li>
+                <li>Lasagna</li>
+                <li>Falafel</li>
+                <li>Bacalao Dorado</li>
+            </ol>
+        </div>
+    </div>
+</div>

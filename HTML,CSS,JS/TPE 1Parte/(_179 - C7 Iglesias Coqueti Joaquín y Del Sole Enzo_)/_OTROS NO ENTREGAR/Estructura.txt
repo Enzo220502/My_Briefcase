@@ -1,0 +1,39 @@
+NAV:
+HOME -> index#descripcion
+MENÚ -> html2
+UBICACIÓN -> html3
+CONTACTO -> index#contacto
+
+HTML1:
+HOME
+DESCRIPCIÓN / QUIÉNES SOMOS
+FORMULARIO DE CONTACTO
+PUBLICIDAD A UN PLATO
+
+HTML2:
+MENÚ (¿UNO O MÁS DE UNO?)
+PLATOS MÁS PEDIDOS
+PUBLICIDAD A UN PLATO
+
+FORM: FORMULARIO DE CONTACTO (NOMBRE - MAIL - TELÉFONO - MENSAJE)
+TABLA: Menú
+
+HTML3:
+UBICACION (FOTO)
+
+
+HEATHER:
+logo restaurante - nombre restaurante
+NAV
+
+FOOTER:
+dirección -> con link a la ubicación
+link whatsapp
+link email
+Copyright
+
+
+
+
+ejemplo:
+https://www.moshimoshi.mx/

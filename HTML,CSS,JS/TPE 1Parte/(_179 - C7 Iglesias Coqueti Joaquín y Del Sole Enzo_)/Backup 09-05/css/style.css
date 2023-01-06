@@ -1,0 +1,230 @@
+html {
+    display:flex;
+    justify-content: space-around;
+}
+
+body {
+    background-image: url("../images/fondo.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    max-width: 1000px;
+    margin:20px ;
+    border-radius: 15px;
+    border: black 2px solid;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    text-align:justify;
+}
+
+.content, header, footer, .frase_con_img {
+    padding:10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content {
+    background-color: rgba(196, 200, 137, 0.8);
+}
+
+footer {
+    background-color: #9C4848;
+    background-color: rgba(150,72,72,.8);
+    background-color: rgb(82, 51, 51, .9);
+    border-radius: 0 0 15px 15px;
+}
+footer * {
+    color:rgba(252, 244, 175, 0.884);
+}
+
+header {
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 15px 15px 0 0;
+}
+.form_contacto, table {
+    background-color: rgba(255,255,255,0.7);
+}
+
+#logo {
+    height: 100px;
+}
+
+header .main_nav {
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+header .main_nav li {
+    display:flex;
+    color: black;
+    align-items: center;
+    background-color: rgba(125, 202, 131, 0.8);
+    padding: 0;
+    margin-left: 5px;
+    margin-top: 5px;
+    list-style: none;
+    border-radius: 10px;
+    border-color: black;
+    border-style:solid;
+    height: 60px;
+    width: 100px;
+}
+header .main_nav li:hover  {
+    background-color: rgba(0,255,255,.8);
+}
+header .main_nav li a:hover {
+    color:black;
+}
+header .main_nav li a {
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-weight:bolder;
+
+    width: 100%;
+    height: 100%;
+
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    width:100%;
+    text-align: center;
+    font-style:oblique;
+    text-align: right;
+}
+.contenido_principal {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.contenido_secundario {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 25%;
+}
+
+.contenido_secundario>p{
+    text-align: justify;
+}
+
+.contenido_secundario > img {
+    max-width: 100%;
+} 
+
+img {
+    border-radius: 5px;
+}
+
+.form_contacto, .form_contacto label, .form_contacto  input, .form_contacto  textarea {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form_contacto {
+    border-style: solid;
+    border:1px solid;
+    border-radius: 10px;
+    width:60%;
+    padding:30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form_contacto label, .form_contacto  input, .form_contacto  textarea {
+    padding: 40px;
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+
+.form_contacto  textarea {
+    height:200px;
+}
+
+.btn_submit {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn_submit:hover {
+    background-color: #45a049;
+  }
+
+
+table{
+    padding:15px 10px;
+    border-radius: 15px;
+    border: 2px dashed black;
+    max-width: 90%;
+    text-align: center;
+ }
+ table tbody tr td:first-child {
+    text-align: left;
+}
+table thead tr{
+    background-color: rgba(144, 133, 50, 0.5);
+}
+table tbody tr:nth-child(2n+0) {
+    background-color:rgba(220, 220, 220, .3);
+}
+
+table tbody tr:nth-child(2n+1) {
+    background-color:rgba(180, 180, 180, .3);
+}
+
+span img{
+    height: 1em;
+}
+
+.mapa {
+    border-radius: 100px;
+    margin:auto;
+    width:auto;
+    max-width: 100%;
+    display: flex;
+    align-self: center;
+}
+
+
+.frase_con_img:nth-child(2n+0) {
+    justify-content: flex-start;
+}
+.frase_con_img:nth-child(2n+1) {
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+.frase_con_img img{
+    width:30%;
+}
+.frase_con_img p{
+    width:60%;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.apto, .origen {
+    width: 1em;
+    height: 1em;
+    display:inline-flex;
+    background-size: 1em;
+}
+
+.apto_veg {
+    background: url("../images/apto_vegetarianos.png") no-repeat;
+}
